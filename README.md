@@ -15,7 +15,9 @@ The repository includes:
 	
 	Basically, source code for each architecture used in the paper is the same, only need to change the type of pre-trained model and use different color schemes.
 	
-	In this repository, the attached code is for Xception.
+	In this repository, the attached code is for Xception by freezing only the first layer. 
+	
+	For the other architectures, just changes Xception into VGG16, InceptionV3, Resnet50, and NasNet.
 	
 	For using multiclass classifier, train all the colors together in the same time. For example: to build CF1 classifier for primary color, train Green, Purple, Red, and Yellow together. Green, Purple, Red, and Yellow are used as the output class.
 	
