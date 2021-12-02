@@ -36,6 +36,9 @@ The repository includes:
 	For Ensemble Classifier, we also proposed 2 methods. First is using MLTC (Most likely true color). Second is using MLCR (Most likely color ratio).
 	
 	We don't need to assign color label in Multiclass Classifier because the classifier is directly giving us the color label.
+- Results --> in the folder "results"
+
+	Contains the results for all the experiments.
 
 To use our code (redo our experiments):
 1. Please setup the environment based on requirements.txt.
