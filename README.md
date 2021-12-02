@@ -11,7 +11,7 @@ We did some scenarios for building color classifiers.
 	- Primary and Secondary color
 
 The repository includes:
-- Source code for building color classifiers using Deep Learning
+- Source code for building color classifiers using Deep Learning --> in the folder "binary" and "multiclass"
 	
 	Basically, source code for each architecture used in the paper is the same, only need to change the type of pre-trained model and use different color schemes.
 	
@@ -25,7 +25,7 @@ The repository includes:
 	
 	For using different color schemes, just use different dataset: CF1 and CL1 for Color Scheme 1 and CF2 and CL2 for Color Scheme 2.
 		
-- Source codes for determining the color (output color label).
+- Source codes for determining the color (output the color label) --> in the folder "color_label"
 	
 	The code is used to assign the color for Combined-Binary Classifier. 
 	
