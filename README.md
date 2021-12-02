@@ -10,8 +10,9 @@ We did some scenarios for building color classifiers.
 	- Primary color
 	- Primary and Secondary color
 
-The repositoy includes:
+The repository includes:
 - Source code for building color classifiers using Deep Learning
+	
 	Basically, source code for each architecture used in the paper is the same, only need to change the type of pre-trained model and use different color schemes.
 	
 	In this repository, the attached code is for Xception.
@@ -21,9 +22,18 @@ The repositoy includes:
 	For using binary classifier, train each color separately. For example: to build CF1 classifier for primary color, train Green, Purple, Red, and Yellow separately. Green Classifier will output Green and Non-Green class, Purple will output Purple and Non-Purple class, etc.
 	
 	For using different color schemes, just use different dataset: CF1 and CL1 for Color Scheme 1 and CF2 and CL2 for Color Scheme 2.
+		
+- Source codes for determining the color (output color label).
 	
-- Pre-trained weights for each classifiers.
-- Source code for determining the color (output color label).
+	The code is used to assign the color for Combined-Binary Classifier. 
+	
+	As mentioned in the paper, we proposed 2 methods. First is using one-versus-the-rest (method 1) and second is using maximum probability (method 2).
+	
+	Besides that, we also need to assign the color label for Ensemble Classifier (combining a multi-class and combined-binary classifier).
+	
+	For Ensemble Classifier, we also proposed 2 methods. First is using MLTC (Most likely true color). Second is using MLCR (Most likely color ratio).
+	
+	We don't need to assign color label in Multiclass Classifier because the classifier is directly giving us the color label.
 
 To use our code (redo our experiments):
 1. Please setup the environment based on requirements.txt.
@@ -32,9 +42,13 @@ To use our code (redo our experiments):
 4. For using the images used in the method, please find the folder Color_Classifier. There are 2 folders: Multiple_Color and Primary_Color. Please use CF1, CF2, CL1 and CL2 folders for conducting experiments using various color schemes.
 5. The weight of the deep learning model is saved in the folder "Model".
 
+This repository only gives the example for multiclass and binary classifier using Primary color and Color Scheme 1. 
+	
+For Primary Secondary Color and Color Scheme 2, basically the codes are the same, only need to use the dataset for those scenarios.
+
 # Citation
 
-Use this bibtex to cite the work describe in this repository:
+Use this bibtex to cite the work described in this repository:
 
 - @article{10.1371/journal.pone.0259036,
     doi = {10.1371/journal.pone.0259036},
