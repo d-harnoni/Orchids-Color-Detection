@@ -42,9 +42,9 @@ To use our code (redo our experiments):
 4. For using the images used in the method, please find the folder Color_Classifier. There are 2 folders: Multiple_Color and Primary_Color. Please use CF1, CF2, CL1 and CL2 folders for conducting experiments using various color schemes.
 5. The weight of the deep learning model is saved in the folder "Model".
 
-This repository only gives the example for multiclass and binary classifier using Primary color and Color Scheme 1. 
+This repository only gives the example for "multiclass" and "binary" classifier using Color of Flower (CF) in Primary color and Color Scheme 1. 
 	
-For Primary Secondary Color and Color Scheme 2, basically the codes are the same, only need to use the dataset for those scenarios.
+For Color of Flower (CF) in Primary Secondary Color using Color Scheme 2 and Color of Labellum (CL) in all scenarios, basically the codes are the same, only need to change the dataset for those scenarios.
 
 # Citation
 
