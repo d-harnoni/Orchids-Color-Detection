@@ -25,7 +25,7 @@ The repository includes:
 	
 	For using different color schemes, just use different dataset: CF1 and CL1 for Color Scheme 1 and CF2 and CL2 for Color Scheme 2.
 		
-- Source codes for determining the color (output the color label) --> in the folder "color_label"
+- Source codes for determining the color (output the color label) --> in the folder "color label"
 	
 	The code is used to assign the color for Combined-Binary Classifier. 
 	
