@@ -1,6 +1,6 @@
 # Orchids-Color-Detection
 
-This repository is an implementation of a method described in the paper "Automated color detection in orchids using color labels and deep learning" (https://doi.org/10.1371/journal.pone.0259036).
+This repository is an implementation of some methods described in the paper "Automated color detection in orchids using color labels and deep learning" (https://doi.org/10.1371/journal.pone.0259036).
 The method was proposed to detect Color of Flower (CF) and Color of Labellum (CL) in Orchids flower using deep learning and color label.
 We did some scenarios for building color classifiers.
 1. Using Multiclass Classifier
