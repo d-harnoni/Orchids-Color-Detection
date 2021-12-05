@@ -1,1 +1,1 @@
-Codes fro Primary Secondary color are the same with Primary color, only use different dataset that can be downloaded from https://doi.org/10.7910/DVN/0HNECY in the folder Color_Classifier -- Multiple Color
+Codes for Primary Secondary color are the same with Primary color, just use different dataset that can be downloaded from https://doi.org/10.7910/DVN/0HNECY in the folder Color_Classifier -- Multiple Color
