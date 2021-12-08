@@ -44,10 +44,7 @@ To use our code (redo our experiments):
 1. Please setup the environment based on requirements.txt.
 2. The images for training, validation and testing should be put in different folders. 
 3. The dataset (all of the images and the labels for training, validation and testing) can be downloaded from https://doi.org/10.7910/DVN/0HNECY. 
-4. For using the images used in the method, please find the folder Color_Classifier. There are 2 folders: Multiple_Color and Primary_Color. Please use CF1, CF2, CL1 and CL2 folders for conducting experiments using various color schemes.
-5. The weight of the deep learning model is saved in the folder "Model".
-
-This repository only gives the example for "multiclass" and "binary" classifier using Color of Flower (CF) in Primary color and Color Scheme 1. 
+4. For using the images used in the method, please find the folder Color_Classifier. There are 2 folders: Multiple_Color and Primary_Color. Please use CF1, CF2, CL1 and CL2 folders for conducting experiments using various color schemes. In this repository, we make some folders to put the pictures based on color labels defined in the dataset in folder "Color_Classifiers-Primary_Color-CF1". The pictures from the dataset can be put in the folder "multiclass-DL classifier-primary-Training-(green/purple/red/yellow)". Which pictures are green or purple or red or yellow, can refer to "Training_Data_for_Color_of_Flower.txt". For Binary claasifier, put the dataset in the folder "binary-primary-Training-(Green/Non-Green)". All the pictures which have 'Green' labels, put in the folder "Green" and all the pictures except Green (Purple, Red, Yellow), put in the folder "Non-Green". Do the same action for Validation and Testing folders.
 	
 For Color of Flower (CF) in Primary Secondary Color using Color Scheme 2 and Color of Labellum (CL) in all scenarios, basically the codes are the same, only need to change the dataset for those scenarios.
 
