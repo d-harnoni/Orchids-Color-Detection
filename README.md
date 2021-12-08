@@ -11,7 +11,7 @@ We did some scenarios for building color classifiers.
 	- Primary and Secondary color
 
 The repository includes:
-- Source code for building color classifiers using Deep Learning --> in the folder "binary" and "multiclass"
+- Source code for building color classifiers using Deep Learning --> in the folder "multiclass"
 	
 	Basically, source code for each architecture used in the paper is the same, only need to change the type of pre-trained model and use different color schemes.
 	
