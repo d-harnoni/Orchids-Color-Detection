@@ -21,7 +21,7 @@ The repository includes:
 	
 	For using multiclass classifier, train all the colors together in the same time. For example: to build CF1 classifier for primary color, train Green, Purple, Red, and Yellow together. Green, Purple, Red, and Yellow are used as the output class.
 	
-	For using binary classifier, train each color separately. For example: to build CF1 classifier for primary color, train Green, Purple, Red, and Yellow separately. Green Classifier will output Green and Non-Green class, Purple will output Purple and Non-Purple class, etc.
+	For using binary classifier, train each color separately. For example: to build CF1 classifier for primary color, train Green, Purple, Red, and Yellow separately (Please see "binary" folder). Green Classifier will output Green and Non-Green class, Purple will output Purple and Non-Purple class, etc.
 	
 	For using different color schemes, just use different dataset: CF1 and CL1 for Color Scheme 1 and CF2 and CL2 for Color Scheme 2.
 		
